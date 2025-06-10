@@ -1,13 +1,5 @@
 # periplus-test-automation-reupload
 
-# Periplus Test Automation
-
-This repository contains automated test scripts for testing the Periplus online shopping platform, specifically focusing on shopping cart functionality.
-
-## Overview
-
-This test automation framework is built using Java and Selenium WebDriver to perform end-to-end testing of the Periplus e-commerce website's shopping cart features. The tests validate various shopping cart operations including adding items, updating quantities, removing items, and checkout processes.
-
 ## Prerequisites
 - **Java Development Kit (JDK)** - Version 8 or higher
 - **Maven**
@@ -54,5 +46,8 @@ To run the main shopping cart test file:
 
 ```bash
 mvn test -Dtest=PeriplusShoppingCartTest
+```
 or
+```bash
 mvn clean test
+```
